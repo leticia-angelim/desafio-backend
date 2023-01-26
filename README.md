@@ -6,8 +6,6 @@ Uma interface web que aceita upload de arquivos com padrão CNAB, normaliza os d
 
 ## Tecnologias utilizadas
 
----
-
 - Python
 - Django
 - Django rest framework
@@ -15,8 +13,6 @@ Uma interface web que aceita upload de arquivos com padrão CNAB, normaliza os d
 <br/>
 
 ## Instalação e execução em ambientes de desenvolvimento
-
----
 
 ### Crie o ambiente virtual
 
@@ -59,8 +55,6 @@ Arquivo para testar a aplicação: **[CNAB](https://github.com/Kenzie-Academy-Br
 <br/>
 
 ## Rotas
-
----
 
 - Rota para fazer o upload do arquivo
 
