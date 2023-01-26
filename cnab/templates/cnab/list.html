@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lojas</title>
+  </head>
+  <body>
+    {% csrf_token %}
+    <h1>Lojas</h1>
+    {% for store in stores_list %}
+    <p>{{ store }} | Saldo: {{ store.total }}</p>
+    {% endfor %}
+  </body>
+</html>
