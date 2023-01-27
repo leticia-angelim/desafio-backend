@@ -48,19 +48,12 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+### Rota para fazer o upload do arquivo
+
+```
+http://127.0.0.1:8000/api/upload/
+```
+
 <br/>
 
 Arquivo para testar a aplicação: **[CNAB](https://github.com/Kenzie-Academy-Brasil-Developers/desafio-backend-m6/blob/main/CNAB.txt)**
-
-<br/>
-
-## Rotas
-
-- Rota para fazer o upload do arquivo
-
-  > http://127.0.0.1:8000/api/upload/
-
-<br/>
-
-- Rota com lista de saldo em conta por loja
-  > http://127.0.0.1:8000/api/upload/list/
