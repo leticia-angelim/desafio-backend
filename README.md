@@ -12,7 +12,7 @@ Uma interface web que aceita upload de arquivos com padrão CNAB, normaliza os d
 
 <br/>
 
-## Instalação e execução em ambientes de desenvolvimento
+## Instalação e execução em ambiente de desenvolvimento
 
 ### Crie o ambiente virtual
 
