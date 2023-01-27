@@ -12,7 +12,6 @@
       action="{% url 'file_txt' %}"
       method="post"
       enctype="multipart/form-data"
-      style="display: flex"
     >
       {% csrf_token %}
       <p>{{ form.file }}</p>

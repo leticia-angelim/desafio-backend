@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect
 from django.db.models import Sum
 
-from cnab.utils.index import convert_file
+from .utils.get_stores_names import get_stores_names
+from .utils.convert_file import convert_file
 from .forms import UploadFileForm
 from .models import Cnab
 
@@ -36,15 +37,3 @@ def list_stores(request):
             stores_list.append(store)
 
         return render(request, "cnab/list.html", {"stores_list": stores_list})
-
-
-def get_stores_names(stores):
-    name_list = []
-
-    for store in stores:
-        if store.store_name not in name_list:
-            name_list.append(store.store_name)
-
-    name_list = list(filter(len, name_list))
-
-    return name_list
